@@ -4,6 +4,7 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession; // <--- ADDED THIS
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -16,7 +17,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/employee")
 public class EmployeeService {
 
-	
 	@RequestMapping(value = "/getEmployeeDetails", method = RequestMethod.GET)
 	@ResponseBody
 	String uploadImage(HttpServletRequest request, HttpServletResponse response, HttpSession httpSession)
@@ -30,5 +30,5 @@ public class EmployeeService {
 		js.put("Places he like", "His native place");
 
 		return js.toString();
-}
+	}
 }
