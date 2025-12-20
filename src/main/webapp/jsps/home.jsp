@@ -11,7 +11,7 @@ n <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="
 <body>
 <h1 align="center">Welcome to Chetan's ass</h1>
 <h1 align="center">Phone Number: Why do you wanna know?</h1>
-<h1 align="center">NCB is SuperStar,ra!!</h1>
+<h1 align="center">What ra Sureshaaa!!!</h1>
 
 <h1 align="center">Trainer Name: Tommy</h1>
 
